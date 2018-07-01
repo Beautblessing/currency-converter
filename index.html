@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <title> CurrencyConverter</title>
+    <link rel="stylesheet" href="./css/currencyconverter.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Markazi+Text" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Galada" rel="stylesheet">
+
+  </head>
+
+
+<body>
+    <header class="w3-dark-grey1 w3-center w3-padding-16 Galada">
+      <!-- <style type="text/css">
+        body{background-color: #333}
+        h1{color: #fff}
+        p{color: #ffdddd}
+      </style> -->
+      <center><h1>#7DaysCodeChallenge</h1></center>
+     
+    </header>
+    <section> 
+     
+    <div class="w3-padding-64 w3-yellow"">
+     
+       
+      <div class="w3-row-padding">
+   
+        <div class="w3-col s12 m3">
+                <ul class="w3-ul w3-card w3-hover-shadow">
+                  <li class="w3-dark-grey1 w3-center w3-xlarge w3-padding-16 Galada">Currency Converter</li>
+                  <li class="">
+                      <label>Enter Amount</label>
+                      <input type="number" id="amountInput" class="w3-input">
+                  </li>
+                  <li class="">
+                        <label>From</label>
+                        <select class="w3-select" id="currencyFrom">
+                        </select>    
+                  </li>
+                  <li class="">
+                        <label>To</label>
+                        <select class="w3-select" id="currencyTo">
+                        </select>    
+                  </li>
+                  <li class="w3-padding-24 exchange w3-row-padding w3-white">
+                     <span class="w3-text-red exchangeRate" style="font-weight: 900;">
+                         <img src="./img/AGNB-loading.gif" style="visibility: hidden;width: 100px;"/>
+                    </span>
+
+                      <button id="userSubmit" class="w3-button w3-green w3-right w3-padding-large l12 m12 s12"><i class="fa fa-download"></i>Convert</button>
+                  </li>
+                </ul>
+              </div>              
+
+        </div>
+      </div>
+    
+     </section>
+   
+    <!-- Footer -->
+    <footer class="w3-dark-grey1 w3-center w3-padding-16 Galada">
+     <style type="text/css">
+        body{background-color: #333}
+        h1{color: #fff}
+        p{color: #ffdddd}
+      </style>
+      <p><center>&copy; 2018 Beautblessing. | alcwithgoogle3.0</center></p>
+     
+    </footer>    
+      
+    <script src="./js/emmsdanExtra.js"></script>
+    <script src="./js/controller.js"></script>
+    <script src="./js/database.js"></script>
+    <script src="./js/converter.js"></script>
+    <script src="./serviceWorker.js"></script>
+    <script>registerServiceWorker();</script>
+  
+  </body>
+</html>
