@@ -1,5 +1,7 @@
-*************************Currency Converter Application********************  
-  Project name: Currency Converter
+*************************Currency Converter Application************************  
+
+*******************************************************************************  
+Project name: Currency Converter
   Author: Jerry Blessing
   Slackhandle: @Beautblessing
   github:
